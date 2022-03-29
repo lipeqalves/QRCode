@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body {
+    justify-content: center;
+    display: flex;
+    background-color: #D5E1EF;
+    padding-top: 20px;
+    
+    
+}
+.principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 700px;
+    border-radius: 20px;
+   
+    
+    
+    
+}
+.secundario{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 40%;
+    bottom: 10px;
+}
+#texto1{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: #1D2C40;
+    font-weight: 100;
+}
+#texto2{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 12px;
+    color: #7C8083;
+}
+img{
+    justify-content: center;
+    border-radius: 10px;
+    width: 80%;
+    height: 50%;
+}
