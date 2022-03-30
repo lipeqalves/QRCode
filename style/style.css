@@ -5,43 +5,45 @@
     margin: 0%;
 }
 body {
-    justify-content: center;
-    display: flex;
     background-color: #D5E1EF;
-    padding-top: 20px; 
+    padding-top: 5%; 
+    padding-left: 40%;
 }
 .principal {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content:space-around;
+    align-items:center;
     background-color: #FFFFFF;
-    width: 400px;
-    height: 700px;
+    width: 300px;
+    height: 500px;
     border-radius: 20px;  
 }
 .secundario{
+    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 40%;
-    height: 40%;
-    bottom: 10px;
+    align-items:flex-start;
+    justify-content: space-around;
+    width: 80%;
+    height: 30%;  
 }
 #texto1{
-    font-family:'Courier New', Courier, monospace;
-    font-size: 15px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-size: 19px;
     color: #1D2C40;
-    font-weight: 100;
+    text-align:center;
 }
 #texto2{
-    font-family:'Courier New', Courier, monospace;
-    font-size: 12px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-size: 14px;
     color: #7C8083;
+    text-align:center;
 }
 img{
     justify-content: center;
     border-radius: 10px;
-    width: 80%;
-    height: 50%;
+    width: 280px;
+    height: 280px;
 }
